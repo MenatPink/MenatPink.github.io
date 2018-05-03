@@ -2,7 +2,7 @@ angular.module("portfolio", [])
   .controller('portfolioArray',function($scope){
       $scope.portfolios = [
         {'name': 'Tajam', 'URL': 'Tajam/index.html', 'Image': 'img/Tajam.png', 'description': 'A responsive template for the Creative Agency, Tajam.', 'skills':'Photoshop, HTML5, CSS3, Sass, Bootstrap, Jquery, Grunt'},
-        {'name':'WeatherPlay', 'URL': 'http://officialproductivity.eu', 'Image': 'img/WeatherPlay.png', 'description': 'A responsive weather application that displays current time, as well as average temperature in three popular cities.', 'skills': 'Photoshop, HTML5, CSS3, Sass, Grunt, Javascript, Jquery, AJAX'},
+        // {'name':'WeatherPlay', 'URL': 'http://officialproductivity.eu', 'Image': 'img/WeatherPlay.png', 'description': 'A responsive weather application that displays current time, as well as average temperature in three popular cities.', 'skills': 'Photoshop, HTML5, CSS3, Sass, Grunt, Javascript, Jquery, AJAX'},
         {'name': 'EC1', 'URL':'EC1/index.html','Image':'img/EC1.png', 'description':'A responsive template, showcasing a gallery.', 'skills': 'HTML5, CSS3, Sass, Bootstrap, Jquery, AngularJS, Grunt'},
         {'name':'Eclipse', 'URL':'Eclipse/index.html', 'Image':'img/Eclipse.png', 'description': 'A fully responsive grid template for a modern, sleek design brand.', 'skills': 'HTML5,CSS3,Sass, Bootstrap'},
         {'name':'BlogUI', 'URL':'BlogUI/Code/index.html', 'Image':'img/BlogUI.png', 'description': 'A fully responsive grid template, for a photography blog.', 'skills': 'HTML5, CSS3, Sass, Bootstrap'},
