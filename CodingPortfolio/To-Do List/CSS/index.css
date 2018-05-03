@@ -1,0 +1,82 @@
+* {
+  font-family: "Lato", sans-serif; }
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffa0a0; }
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: white; }
+
+.todoListWrapper {
+  background-color: #e6e6e6;
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 10px; }
+  .todoListWrapper h2 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    font-size: 20px;
+    background-color: #004742;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 70px;
+    padding: 30px;
+    margin: 0; }
+    .todoListWrapper h2 span {
+      display: inline-block;
+      margin: 10px;
+      font-size: 30px;
+      transition: all ease-in-out 0.5s; }
+      .todoListWrapper h2 span:hover {
+        color: #ffa0a0; }
+
+.todoItem {
+  position: relative;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center; }
+  .todoItem .strikethrough {
+    text-decoration: line-through;
+    color: grey; }
+  .todoItem label {
+    font-size: 16px; }
+  .todoItem input[type=checkbox] {
+    width: 28px;
+    height: 28px;
+    margin: 0 30px;
+    background-color: white;
+    border-radius: 0; }
+  .todoItem input[type=text] {
+    padding: 0 10px;
+    height: 100%;
+    margin: 0 20px;
+    border: none;
+    background-color: #c6efcb;
+    width: 500px;
+    border-radius: 10px; }
+  .todoItem .delete {
+    position: absolute;
+    right: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    transition: all ease-in-out 0.5s; }
+    .todoItem .delete:hover {
+      color: white;
+      background-color: black; }
+
+/*# sourceMappingURL=index.css.map */

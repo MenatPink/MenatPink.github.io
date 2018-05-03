@@ -1,0 +1,186 @@
+body {
+  max-width: 1600px;
+  height: 1400px;
+  background-color: #e2e7ec;
+  margin: 0; }
+
+.conceptCars {
+  max-width: 740px;
+  height: 540px;
+  background: linear-gradient(transparent 40%, rgba(0, 0, 0, 0.7)), url("../Images/redCar.png"); }
+  .conceptCars h2 {
+    width: 400px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: left;
+    font-weight: 700;
+    color: white;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 31.2px; }
+  .conceptCars p {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: left;
+    font-weight: 700;
+    color: #98958e;
+    margin-left: 40px;
+    margin-top: 400px; }
+
+.designInspiration {
+  padding: 0;
+  width: 360px;
+  height: 540px;
+  background-color: #fff;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align: left;
+  font-weight: 700;
+  margin-top: 0; }
+  .designInspiration h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 28px;
+    max-width: 300px; }
+  .designInspiration p {
+    margin-top: 28px;
+    margin-left: 28px;
+    color: #818181; }
+  .designInspiration img:nth-of-type(2) {
+    position: absolute;
+    bottom: 26px;
+    left: 26px; }
+
+.webPhotos {
+  padding: 0;
+  width: 360px;
+  height: 540px;
+  background-color: #fff;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align: left;
+  font-weight: 700;
+  margin-left: 0px; }
+  .webPhotos h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 28px;
+    max-width: 300px; }
+  .webPhotos p {
+    margin-top: 28px;
+    margin-left: 28px;
+    color: #818181; }
+  .webPhotos img:nth-of-type(2) {
+    position: absolute;
+    bottom: 26px;
+    left: 26px; }
+
+.careerHacks {
+  padding: 0;
+  width: 360px;
+  height: 540px;
+  background-color: #fff;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align: left;
+  font-weight: 700; }
+  .careerHacks h2 {
+    margin-top: 60px; }
+  .careerHacks h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 28px;
+    max-width: 300px; }
+  .careerHacks p {
+    margin-top: 28px;
+    margin-left: 28px;
+    color: #818181; }
+  .careerHacks img:nth-of-type(2) {
+    position: absolute;
+    bottom: 26px;
+    left: 26px; }
+
+.photographyCourse {
+  padding: 0;
+  width: 360px;
+  height: 540px;
+  background-color: #fff;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align: left;
+  font-weight: 700; }
+  .photographyCourse h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 28px;
+    max-width: 300px; }
+  .photographyCourse p {
+    margin-top: 28px;
+    margin-left: 28px;
+    color: #818181; }
+  .photographyCourse img:nth-of-type(2) {
+    position: absolute;
+    bottom: 26px;
+    left: 26px; }
+
+.contentLoad {
+  width: 200px;
+  margin: auto;
+  margin-top: 115px; }
+  .contentLoad img {
+    width: 26px;
+    height: 26px;
+    display: inline-block; }
+  .contentLoad p {
+    color: #99a5b0;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: left;
+    font-weight: 700;
+    padding-top: 4px;
+    float: right;
+    text-align: center; }
+
+@media (max-width: 1200px) {
+  .conceptCars {
+    float: none;
+    clear: both;
+    margin: auto;
+    margin-top: 20px; }
+    .conceptCars p {
+      margin: 0;
+      padding-top: 400px; }
+    .conceptCars h2 {
+      font-size: 20px;
+      max-width: 400px;
+      margin: 0;
+      margin-top: 10px;
+      width: inherit; }
+
+  .designInspiration {
+    float: none;
+    clear: both;
+    margin: auto;
+    margin-top: 20px;
+    margin-top: 20px; }
+
+  .webPhotos {
+    float: none;
+    clear: both;
+    margin: auto;
+    margin-top: 20px; }
+
+  .careerHacks {
+    float: none;
+    clear: both;
+    margin: auto;
+    margin-top: 20px; }
+
+  .photographyCourse {
+    float: none;
+    clear: both;
+    margin: auto;
+    margin-top: 20px; } }
+
+/*# sourceMappingURL=index.css.map */

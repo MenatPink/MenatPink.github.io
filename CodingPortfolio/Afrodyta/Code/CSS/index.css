@@ -1,0 +1,340 @@
+body {
+  width: 100%;
+  height: 4543px;
+  background-color: white; }
+
+h1 {
+  margin: auto;
+  width: 500px;
+  padding-top: 187px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 70pt;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 5px 5px black; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700; }
+
+.content {
+  width: 1140px;
+  height: 4543px;
+  margin: auto; }
+
+header {
+  width: 100%;
+  height: 200px; }
+  header img {
+    margin-top: 91px;
+    float: left; }
+  header nav {
+    font-family: "Open Sans", sans-serif;
+    float: right; }
+    header nav li {
+      position: relative;
+      list-style-type: none;
+      display: inline-block;
+      margin: 30px;
+      margin-top: 91px;
+      font-size: 20pt;
+      cursor: pointer; }
+      header nav li:after {
+        height: 1px;
+        background-color: black;
+        content: '.';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: transparent;
+        width: 0;
+        transition: all ease-in 0.25s; }
+      header nav li:hover:after {
+        width: 100%; }
+
+.banner {
+  width: 1140px;
+  height: 550px;
+  background-image: url(../../Images/girlOverRock.png); }
+
+.textbox1 {
+  float: left;
+  width: 360px;
+  margin-top: 100px; }
+  .textbox1 h2 {
+    font-size: 45pt; }
+  .textbox1 p {
+    font-size: 14px;
+    line-height: 30px; }
+  .textbox1 p:nth-of-type(2) {
+    font-size: 24px;
+    font-weight: bold; }
+
+.Costume {
+  position: relative;
+  overflow: visible;
+  margin-top: 116px;
+  width: 713px;
+  height: 220px;
+  float: right;
+  background-image: url(../../Images/costumeImageLines.png); }
+  .Costume h2 {
+    position: absolute;
+    font-weight: 800;
+    font-size: 20pt;
+    top: -35px;
+    right: 0; }
+
+.rippedJeans {
+  position: relative;
+  margin-top: 100px;
+  float: left;
+  clear: both;
+  width: 542px;
+  height: 587px;
+  background-image: url(../../Images/sneakersRippedJeans.png); }
+  .rippedJeans h2 {
+    position: absolute;
+    font-weight: 800;
+    font-size: 20pt;
+    top: -35px; }
+
+.textbox2 {
+  position: relative;
+  margin-top: 175px;
+  margin-right: 70px;
+  width: 528px;
+  height: 162px;
+  background-color: #f6f6f6;
+  float: right; }
+  .textbox2 h2 {
+    top: -90px;
+    right: -75px;
+    line-height: 60px;
+    font-size: 40px;
+    position: absolute;
+    text-align: right; }
+    .textbox2 h2 span {
+      font-size: 60px; }
+  .textbox2 p {
+    position: absolute;
+    width: 510.4px;
+    height: 101.5px;
+    top: 80px;
+    left: 60px; }
+  .textbox2 p:nth-of-type(2) {
+    font-size: 24px;
+    font-weight: bold;
+    top: 210px; }
+
+.behindPhoto {
+  position: relative;
+  background-image: url(../../Images/behindPhoto.png);
+  width: 542px;
+  height: 587px;
+  float: right;
+  margin-top: 160px; }
+  .behindPhoto h2 {
+    position: absolute;
+    font-weight: 800;
+    font-size: 20pt;
+    top: -35px;
+    right: 0; }
+
+.textbox3 {
+  float: left;
+  width: 427.62px;
+  height: 261.48px; }
+  .textbox3 h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: black;
+    text-shadow: none;
+    text-align: left;
+    font-size: 55pt;
+    margin-top: 167px;
+    letter-spacing: 0.08em;
+    padding: 0; }
+
+.signUp {
+  clear: both;
+  width: 1140px;
+  height: 260px;
+  background-image: url(../../Images/legsChainFence.png);
+  margin-top: 1550px; }
+  .signUp h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    text-shadow: 1px 1px 20px black;
+    padding: 0;
+    padding-top: 83px;
+    width: auto; }
+  .signUp button {
+    width: 133px;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700; }
+
+.Vitae {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 0.08em; }
+  .Vitae span {
+    display: inline-block;
+    width: 30px;
+    height: 20px; }
+
+.vitaeText {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 61px;
+  width: 859.47px;
+  height: 86.82px;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.03em; }
+
+.photoWrapper {
+  width: 100%;
+  height: 468px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 104px; }
+  .photoWrapper h1 {
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+    width: 360px; }
+  .photoWrapper .MEI {
+    width: 360px;
+    height: 468px;
+    background-image: url(../../Images/manOnRail.png); }
+  .photoWrapper .CIBO {
+    width: 360px;
+    height: 468px;
+    background-image: url(../../Images/girlInPool.png); }
+  .photoWrapper .EUM {
+    width: 360px;
+    height: 468px;
+    background-image: url(../../Images/skateboarder.png); }
+
+.femaleSunset {
+  width: 542px;
+  height: 587px;
+  margin-top: 115px;
+  background-image: url(../../Images/girlSunset.png);
+  float: left; }
+
+.textbox4 {
+  margin-top: 115px;
+  float: right;
+  width: 550px; }
+  .textbox4 h2 {
+    line-height: 60px;
+    text-align: right;
+    font-size: 40px; }
+    .textbox4 h2 span {
+      font-size: 60px; }
+  .textbox4 p {
+    margin-top: 45px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 20px; }
+  .textbox4 p:nth-of-type(2) {
+    margin-top: 30px; }
+  .textbox4 p:nth-of-type(3) {
+    margin-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: normal; }
+
+.footerMenu {
+  text-align: center;
+  margin: auto;
+  clear: both; }
+  .footerMenu h2 {
+    cursor: pointer;
+    margin-top: 810px;
+    font-size: 24px; }
+    .footerMenu h2 span {
+      display: inline-block;
+      width: 30px;
+      height: 2px; }
+
+.socialMedia {
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  width: 300px; }
+
+.signUpOverlay {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none; }
+  .signUpOverlay .thankyouOverlay {
+    position: relative;
+    background-color: #fff;
+    width: 1186px;
+    height: 637px;
+    margin: auto;
+    margin-top: 200px;
+    opacity: 1; }
+    .signUpOverlay .thankyouOverlay .Logo {
+      position: absolute;
+      border-radius: 500px;
+      top: -181px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: white;
+      width: 362px;
+      height: 362px;
+      box-shadow: 0px 0px 30px rgba(180, 180, 180, 0.6); }
+      .signUpOverlay .thankyouOverlay .Logo img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+    .signUpOverlay .thankyouOverlay h1 {
+      text-shadow: none;
+      font-size: 30px;
+      color: #db2d43;
+      width: 100%;
+      padding-top: 250px; }
+    .signUpOverlay .thankyouOverlay p {
+      padding-top: 60px;
+      text-align: center;
+      font-size: 20px; }
+    .signUpOverlay .thankyouOverlay button {
+      display: block;
+      width: 288px;
+      height: 93px;
+      margin: auto;
+      margin-top: 86px;
+      background-color: #db2d43;
+      border: none; }
+      .signUpOverlay .thankyouOverlay button a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white; }
+
+/*# sourceMappingURL=index.css.map */
