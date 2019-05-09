@@ -1,7 +1,7 @@
 #banner {
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url("../../../images/Against Wall.jpg");
+  background-image: url("../../../images/Against Wall-min.jpg");
 }
 
 #banner.major {
@@ -18,6 +18,7 @@
   margin-bottom: 60px;
   margin-top: 60px;
 }
+
 .skills-section ul {
   width: 100%;
   display: flex;
@@ -25,10 +26,12 @@
   list-style-type: none;
   flex-wrap: wrap;
 }
+
 .skills-section ul li {
   min-width: 4em;
   height: 4em;
 }
+
 .skills-section ul li div {
   display: flex;
   justify-content: center;
@@ -38,14 +41,17 @@
   height: 100%;
   transition: 0.25s ease-in-out all;
 }
+
 .skills-section ul li div i {
   font-size: 50px;
 }
+
 .skills-section ul li div:hover {
   background-color: white;
   opacity: 0.5;
   transform: scale(1.2);
 }
+
 .skills-section ul li div:hover i {
   color: #242943;
 }
