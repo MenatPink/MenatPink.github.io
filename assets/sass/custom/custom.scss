@@ -3,12 +3,17 @@
   justify-content: flex-end;
   background-image: url("../../../images/Against\ Wall.jpg");
 }
+
 #banner.major {
   min-height: 40em;
 }
 
 .description {
   font-size: 1.5em;
+}
+
+#three article {
+  width: 100%;
 }
 
 .skills-section {
@@ -23,6 +28,7 @@
     justify-content: space-around;
     list-style-type: none;
     flex-wrap: wrap;
+
     li {
       min-width: 4em;
       height: 4em;
