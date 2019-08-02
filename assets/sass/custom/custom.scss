@@ -1,7 +1,11 @@
 #banner {
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url("../../../images/Against\ Wall.jpg");
+  background-image: url("../../../images/Against\ Wall-min.jpg");
+}
+
+#wrapper>*>.inner {
+  margin-bottom: 60px;
 }
 
 #banner.major {
@@ -9,7 +13,7 @@
 }
 
 .description {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 #three article {
