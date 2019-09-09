@@ -1,0 +1,1063 @@
+body {
+  overflow-x: hidden;
+  position: relative;
+  background-color: white;
+  width: 100%; }
+
+.section1 .call {
+  overflow: auto;
+  float: left;
+  height: 25px;
+  margin-top: 7.5px; }
+.section1 header {
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2; }
+  .section1 header i {
+    margin-left: 88px;
+    display: inline-block;
+    vertical-align: middle; }
+  .section1 header p {
+    margin: 0;
+    margin-left: 15px;
+    font-family: lato, sans-serif;
+    font-size: 14.08px;
+    display: inline-block; }
+  .section1 header ul {
+    width: 500px;
+    height: 29.95px;
+    margin-right: 88px;
+    float: right;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: lato, sans-serif;
+    font-size: 13.33333px;
+    margin-top: 13.5px; }
+    .section1 header ul li ~ li {
+      border-left: 1px solid #000000;
+      height: 18px;
+      padding-left: 20px;
+      vertical-align: middle; }
+    .section1 header ul li:nth-of-type(1):before, .section1 header ul li:nth-of-type(1):after {
+      left: 50%; }
+    .section1 header ul li {
+      position: relative;
+      cursor: pointer; }
+    .section1 header ul li:before, .section1 header ul li:after {
+      padding-left: 15px;
+      position: absolute;
+      top: 10px;
+      left: 60%;
+      width: 90px;
+      height: 90px;
+      border: 4px solid rgba(0, 0, 0, 0.4);
+      transform: translateX(-50%) translateY(-50%) scale(0.8);
+      border-radius: 50%;
+      background: transparent;
+      content: "";
+      opacity: 0;
+      transition: all 0.3s;
+      z-index: 1; }
+    .section1 header ul li:after {
+      border-width: 2px;
+      transition: all 0.4s; }
+    .section1 header ul li:hover {
+      font-weight: bold; }
+    .section1 header ul li:hover::before {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-50%) scale(1); }
+    .section1 header ul li:hover::after {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-50%) scale(1.3); }
+.section1 .title {
+  clear: both;
+  width: 100%;
+  margin-top: 43px; }
+  .section1 .title ul {
+    margin-top: 20px;
+    width: 340.86px;
+    float: left;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: lato, sans-serif;
+    font-size: 24px; }
+    .section1 .title ul li {
+      position: relative;
+      cursor: pointer;
+      font-family: "Aguafina Script", cursive; }
+      .section1 .title ul li:hover:before {
+        width: 100%;
+        opacity: 1; }
+      .section1 .title ul li:before {
+        content: " ";
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        width: 0%;
+        height: 1px;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+        background-color: black; }
+  .section1 .title h1 {
+    width: 250px;
+    width: 250px;
+    margin: auto;
+    font-size: 69.33333px;
+    font-family: "Aguafina Script", cursive;
+    text-align: center; }
+  .section1 .title .socialBar {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 120px;
+    width: 250.86px;
+    float: right;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: lato, sans-serif; }
+    .section1 .title .socialBar i {
+      color: #d9bf8f;
+      padding: 10px;
+      border: solid 2px #d9bf8f;
+      border-radius: 50%; }
+    .section1 .title .socialBar .ripple {
+      width: 40px;
+      height: 40px;
+      position: relative;
+      cursor: pointer; }
+      .section1 .title .socialBar .ripple:before, .section1 .title .socialBar .ripple:after {
+        padding-left: 15px;
+        position: absolute;
+        top: 10px;
+        left: 60%;
+        width: 90px;
+        height: 90px;
+        border: 4px solid rgba(0, 0, 0, 0.4);
+        transform: translateX(-50%) translateY(-50%) scale(0.8);
+        border-radius: 50%;
+        background: transparent;
+        content: "";
+        opacity: 0;
+        transition: all 0.3s;
+        z-index: 1;
+        border-color: #d9bf8f;
+        top: 20px;
+        left: 45%; }
+      .section1 .title .socialBar .ripple:after {
+        border-width: 2px;
+        transition: all 0.4s; }
+      .section1 .title .socialBar .ripple:hover:before {
+        opacity: 1;
+        transform: translateX(-50%) translateY(-50%) scale(1); }
+      .section1 .title .socialBar .ripple:hover:after {
+        opacity: 1;
+        transform: translateX(-50%) translateY(-50%) scale(1.3); }
+.section1 .mainBackground {
+  width: 100%;
+  height: 692px;
+  background-image: url("../Images/TwoFemaleModelsLarge.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  background-attachment: fixed; }
+  .section1 .mainBackground .backgroundSaleWrapper {
+    width: 290px;
+    height: 290px;
+    margin: auto;
+    border: solid 4px white;
+    margin-top: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -145px;
+    box-shadow: 0px 0px 10px black; }
+  .section1 .mainBackground .backgroundSale {
+    width: 259px;
+    height: 259px;
+    border: solid 2px white;
+    font-family: lato, sans-serif;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 5%; }
+    .section1 .mainBackground .backgroundSale h2:nth-of-type(1) {
+      font-size: 21.92px;
+      text-align: center;
+      color: white;
+      margin-top: 20px; }
+    .section1 .mainBackground .backgroundSale h1 {
+      margin-top: 15px;
+      font-weight: bold;
+      text-align: center;
+      color: black;
+      font-size: 59.74667px; }
+    .section1 .mainBackground .backgroundSale h3 {
+      margin: auto;
+      line-height: 0;
+      color: white;
+      margin-top: 30px;
+      width: 125px;
+      text-align: center;
+      font-size: 21.92px;
+      position: relative; }
+    .section1 .mainBackground .backgroundSale .textDetail {
+      width: 20px;
+      height: 1px;
+      background-color: white;
+      position: absolute;
+      top: 0;
+      transition: all 0.5s ease-in-out; }
+    .section1 .mainBackground .backgroundSale .detail1 {
+      top: 5px;
+      left: -30px;
+      width: 50px; }
+    .section1 .mainBackground .backgroundSale .detail2 {
+      right: -30px;
+      top: 5px;
+      width: 50px; }
+    .section1 .mainBackground .backgroundSale .detail3 {
+      right: 0px;
+      bottom: 10px; }
+    .section1 .mainBackground .backgroundSale .detail4 {
+      left: 0px;
+      bottom: 10px; }
+    .section1 .mainBackground .backgroundSale h2:nth-of-type(2) {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      margin-top: 40px; }
+.section1 button {
+  width: 189px;
+  height: 53px;
+  margin: auto;
+  font-family: lato, sans-serif;
+  display: block;
+  background-color: #f09d66;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 21.33333px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  margin-left: -94.5px; }
+.section1 .carouselButton {
+  width: 18px;
+  height: 19px;
+  border-radius: 0px;
+  transform: rotateZ(45deg);
+  margin: 10px;
+  background-color: #b2b2b2;
+  border: none; }
+  .section1 .carouselButton .active {
+    background-color: black; }
+.section1 .bannerWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center; }
+.section1 .banner {
+  display: inline-block;
+  position: relative;
+  margin-top: 66px; }
+  .section1 .banner img {
+    width: 400px; }
+  .section1 .banner h2 {
+    position: absolute;
+    top: 0;
+    color: white;
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    top: 25px; }
+  .section1 .banner p {
+    position: absolute;
+    top: 0;
+    font-family: lato, sans-serif;
+    color: white;
+    top: 55px;
+    font-size: 13px; }
+  .section1 .banner i {
+    position: absolute;
+    font-size: 53.33333px;
+    color: white; }
+.section1 .leftBanner i {
+  top: 25px;
+  left: 30px; }
+.section1 .leftBanner h2, .section1 .leftBanner p {
+  left: 110px; }
+.section1 .middleBanner i {
+  top: 25px;
+  left: 60px; }
+.section1 .middleBanner h2, .section1 .middleBanner p {
+  left: 120px; }
+.section1 .rightBanner i {
+  top: 25px;
+  left: 60px; }
+.section1 .rightBanner h2, .section1 .rightBanner p {
+  left: 140px; }
+
+.section2 h1 {
+  margin-top: 100px;
+  font-family: "Aguafina Script", cursive;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  font-size: 40px;
+  height: 60px;
+  font-weight: bold; }
+  .section2 h1:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #d9bf8f;
+    transform: rotateZ(45deg);
+    left: 30%; }
+  .section2 h1:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #d9bf8f;
+    transform: rotateZ(45deg);
+    right: 30%; }
+  @media (max-width: 1249px) {
+    .section2 h1:before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #d9bf8f;
+      transform: rotateZ(45deg);
+      left: 300px; }
+    .section2 h1:after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #d9bf8f;
+      transform: rotateZ(45deg);
+      right: 300px; } }
+.section2 .container {
+  padding: 0; }
+.section2 .row {
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+  margin: auto; }
+  .section2 .row:after {
+    display: none; }
+.section2 .row2 {
+  margin-top: -350px; }
+.section2 .col-xs-4 {
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.5s ease-in-out; }
+  .section2 .col-xs-4:hover .border {
+    border: none;
+    background: rgba(0, 0, 0, 0.5); }
+    .section2 .col-xs-4:hover .border button {
+      display: block; }
+.section2 .isShowing {
+  opacity: 1;
+  transform: translateY(0px); }
+.section2 .border {
+  width: 95%;
+  height: 95%;
+  border: solid 1px white;
+  margin: auto;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer; }
+  .section2 .border button {
+    width: 189px;
+    height: 53px;
+    margin: auto;
+    font-family: lato, sans-serif;
+    display: block;
+    background-color: #f09d66;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 21.33333px;
+    display: none;
+    transition: all 0.5s ease-in-out;
+    margin-top: 80%; }
+.section2 .productImage1 {
+  width: 350px;
+  height: 350px;
+  background-image: url("../Images/Boots.png"); }
+.section2 .productImage2 {
+  width: 400px;
+  height: 820px;
+  background-image: url("../Images/oneFemaleModelLarge.png"); }
+  .section2 .productImage2 button {
+    margin-top: 650px; }
+.section2 .productImage3 {
+  width: 350px;
+  height: 350px;
+  background-image: url("../Images/Bracelet.png");
+  float: right; }
+.section2 .productImage4 {
+  width: 350px;
+  height: 350px;
+  float: left;
+  background-image: url("../Images/silverBlackBracelet.png"); }
+.section2 .productImage5 {
+  width: 350px;
+  height: 350px;
+  float: right;
+  background-image: url("../Images/Wallet.png"); }
+
+.section3 .container {
+  padding: 0; }
+.section3 .row {
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+  margin: auto;
+  margin-bottom: 30px; }
+  .section3 .row:after {
+    display: none; }
+.section3 h1 {
+  margin-top: 100px;
+  font-family: "Aguafina Script", cursive;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  font-size: 40px;
+  height: 60px;
+  font-weight: bold; }
+  .section3 h1:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #d9bf8f;
+    transform: rotateZ(45deg);
+    left: 30%; }
+  .section3 h1:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #d9bf8f;
+    transform: rotateZ(45deg);
+    right: 30%; }
+  @media (max-width: 1249px) {
+    .section3 h1:before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #d9bf8f;
+      transform: rotateZ(45deg);
+      left: 300px; }
+    .section3 h1:after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #d9bf8f;
+      transform: rotateZ(45deg);
+      right: 300px; } }
+.section3 .col-xs-3 {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.5s ease-in-out;
+  padding: 0;
+  width: 251px;
+  height: 298px;
+  cursor: pointer; }
+  .section3 .col-xs-3:hover .CTAOverlay {
+    opacity: 1; }
+  .section3 .col-xs-3:hover .CTA {
+    background-color: black; }
+  .section3 .col-xs-3 .CTAOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    opacity: 0;
+    transition: all 0.5s ease-in-out; }
+    .section3 .col-xs-3 .CTAOverlay .discountIcon {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      width: 60px;
+      height: 60px;
+      background-color: #feab12;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%; }
+      .section3 .col-xs-3 .CTAOverlay .discountIcon p {
+        margin: 0;
+        padding: 0;
+        font-size: 20px; }
+  .section3 .col-xs-3 .CTA {
+    margin: 0;
+    width: 100%;
+    height: 10%;
+    background-image: url("../Images/trapezium.png");
+    background-repeat: no-repeat;
+    overflow: auto;
+    background-position: top center;
+    position: absolute;
+    bottom: 0px;
+    transition: all 0.5s ease-in-out; }
+    .section3 .col-xs-3 .CTA p {
+      width: 120px;
+      height: inherit;
+      color: white;
+      font-size: 10.66667px;
+      font-family: lato, sans-serif;
+      font-weight: bold;
+      display: block;
+      margin: auto;
+      margin-top: 10px;
+      text-align: center; }
+      .section3 .col-xs-3 .CTA p i {
+        padding: 0 5px; }
+.section3 .isShowing {
+  opacity: 1;
+  transform: translateY(0px); }
+.section3 .summerProductImage1 {
+  background-image: url("../Images/yellowShirtMale.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-position: top center; }
+.section3 .summerProductImage2 {
+  background-image: url("../Images/BlondeFemale.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-position: top center; }
+.section3 .summerProductImage3 {
+  background-image: url("../Images/trenchCoatMale.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-position: top center; }
+.section3 .summerProductImage4 {
+  background-image: url("../Images/leatherJacketFemale.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-position: top center; }
+.section3 .summerProductImage5 {
+  background-image: url("../Images/bikerJacketFemale.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-position: top center; }
+.section3 .summerProductImage6 {
+  background-image: url("../Images/scarfFemale.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-position: top center; }
+.section3 .summerProductImage7 {
+  background-image: url("../Images/pinkJumperFemale.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-position: top center; }
+.section3 .summerProductImage8 {
+  background-image: url("../Images/yellowShirtMale.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-position: top center; }
+
+.section4 h1 {
+  margin-top: 100px;
+  font-family: "Aguafina Script", cursive;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  font-size: 40px;
+  height: 60px;
+  font-weight: bold; }
+  .section4 h1:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #d9bf8f;
+    transform: rotateZ(45deg);
+    left: 30%; }
+  .section4 h1:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #d9bf8f;
+    transform: rotateZ(45deg);
+    right: 30%; }
+  @media (max-width: 1249px) {
+    .section4 h1:before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #d9bf8f;
+      transform: rotateZ(45deg);
+      left: 300px; }
+    .section4 h1:after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #d9bf8f;
+      transform: rotateZ(45deg);
+      right: 300px; } }
+.section4 .brandWrapper {
+  background-color: #f2f2f2;
+  display: flex;
+  width: 90%;
+  height: 223px;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px; }
+
+.section5 h1 {
+  margin-top: 100px;
+  font-family: "Aguafina Script", cursive;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  font-size: 40px;
+  height: 60px;
+  font-weight: bold; }
+  .section5 h1:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #d9bf8f;
+    transform: rotateZ(45deg);
+    left: 30%; }
+  .section5 h1:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #d9bf8f;
+    transform: rotateZ(45deg);
+    right: 30%; }
+  @media (max-width: 1249px) {
+    .section5 h1:before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #d9bf8f;
+      transform: rotateZ(45deg);
+      left: 300px; }
+    .section5 h1:after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #d9bf8f;
+      transform: rotateZ(45deg);
+      right: 300px; } }
+.section5 .testimonialWrapper {
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+  background-image: url("../Images/beigeRectangle.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-position: top center; }
+  .section5 .testimonialWrapper .testimonial1 {
+    margin-top: 37px;
+    float: left;
+    font-family: "Aguafina Script", cursive;
+    width: auto; }
+    .section5 .testimonialWrapper .testimonial1 img {
+      float: left; }
+    .section5 .testimonialWrapper .testimonial1 p:nth-of-type(1) {
+      font-family: lato, sans-serif;
+      margin-top: 107px;
+      color: white;
+      max-width: 257px;
+      display: inline-block;
+      letter-spacing: 0.04em;
+      font-size: 16px; }
+    .section5 .testimonialWrapper .testimonial1 h2 {
+      margin-top: 40px;
+      color: black;
+      font-size: 29.7pt; }
+    .section5 .testimonialWrapper .testimonial1 p:nth-of-type(2) {
+      font-family: lato, sans-serif;
+      color: #7f7e7e;
+      font-weight: bold; }
+  .section5 .testimonialWrapper .testimonial2 {
+    margin-top: 37px;
+    float: right;
+    font-family: "Aguafina Script", cursive;
+    width: auto;
+    text-align: right; }
+    .section5 .testimonialWrapper .testimonial2 img {
+      float: right; }
+    .section5 .testimonialWrapper .testimonial2 p:nth-of-type(1) {
+      font-family: lato, sans-serif;
+      margin-top: 107px;
+      color: white;
+      max-width: 257px;
+      display: inline-block;
+      letter-spacing: 0.04em;
+      font-size: 16px; }
+    .section5 .testimonialWrapper .testimonial2 h2 {
+      margin-top: 40px;
+      color: black;
+      font-size: 29.7pt; }
+    .section5 .testimonialWrapper .testimonial2 p:nth-of-type(2) {
+      font-family: lato, sans-serif;
+      color: #7f7e7e;
+      font-weight: bold; }
+
+footer {
+  width: 100%;
+  height: 700px;
+  background-color: #141414;
+  color: white;
+  font-family: lato, sans-serif; }
+  footer .menu {
+    display: flex;
+    justify-content: space-around; }
+  footer h3 {
+    padding-top: 90px;
+    padding-left: 20px;
+    font-size: 16px; }
+  footer ul {
+    margin-top: 50px;
+    padding-left: 20px;
+    list-style-type: none;
+    color: #737373; }
+    footer ul li {
+      cursor: pointer;
+      font-size: 12px;
+      margin: 10px;
+      margin-left: 0px;
+      font-weight: bold;
+      transition: all 0.25s ease-in-out; }
+      footer ul li:hover {
+        color: white; }
+  footer .socialWrapper {
+    display: flex;
+    padding-left: 15px;
+    margin-top: 40px;
+    width: 350px;
+    justify-content: space-between; }
+    footer .socialWrapper div {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      color: #141414;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.5s ease-in-out; }
+      footer .socialWrapper div:hover {
+        cursor: pointer;
+        background-color: #141414;
+        color: white; }
+      footer .socialWrapper div i {
+        font-size: 26.66667px; }
+  footer .subscribe {
+    padding: 0;
+    padding-left: 15px;
+    margin-top: 40px; }
+    footer .subscribe span {
+      display: inline-block;
+      width: 20px;
+      text-align: center;
+      font-family: "Aguafina Script", cursive; }
+  footer .subscribeButton {
+    width: 362px;
+    height: 42px;
+    margin-left: 15px;
+    margin-top: 20px;
+    text-indent: 15px;
+    background-color: #141414;
+    border: solid 1px #484848;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    footer .subscribeButton #email {
+      height: 100%;
+      padding: 0;
+      width: 200px;
+      background-color: inherit;
+      border: none;
+      padding-left: 5px; }
+      footer .subscribeButton #email:focus {
+        outline: none; }
+    footer .subscribeButton #submit {
+      width: 101px;
+      height: 33px;
+      background-color: #323030;
+      border: none;
+      margin-right: 5px; }
+  footer .seperatingLine {
+    display: block;
+    margin: auto;
+    margin-top: 89px; }
+  footer p {
+    line-height: 20px;
+    margin-top: 20px;
+    margin-left: 80px;
+    display: inline-block;
+    color: #363636;
+    width: 300px;
+    font-size: 14px; }
+  footer .paymentWrapper {
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 80px; }
+  footer .scrolltop {
+    display: flex;
+    position: fixed;
+    right: 118px;
+    top: 80vh;
+    background-color: black;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    opacity: 0; }
+    footer .scrolltop:hover {
+      background-color: white;
+      color: black; }
+
+@media (max-width: 1249px) {
+  .section1 .bannerWrapper {
+    width: 50%; }
+  .section1 .banner {
+    margin-top: 40px; }
+    .section1 .banner img {
+      width: 200px; }
+    .section1 .banner h2 {
+      font-size: 15px;
+      top: 12px; }
+    .section1 .banner p {
+      position: absolute;
+      font-family: lato, sans-serif;
+      color: white;
+      top: 28px;
+      font-size: 11px; }
+    .section1 .banner i {
+      font-size: 26.66667px; }
+  .section1 .leftBanner i {
+    top: 12px;
+    left: 20px; }
+  .section1 .leftBanner h2, .section1 .leftBanner p {
+    left: 50px; }
+  .section1 .middleBanner i {
+    top: 10px;
+    left: 25px; }
+  .section1 .middleBanner h2, .section1 .middleBanner p {
+    width: 140px;
+    left: 50px; }
+  .section1 .rightBanner i {
+    top: 12px;
+    left: 30px; }
+  .section1 .rightBanner h2, .section1 .rightBanner p {
+    width: 140px;
+    left: 60px; }
+
+  .section2 {
+    clear: both; }
+    .section2 .container {
+      margin-top: 400px;
+      padding: 0; }
+    .section2 .row {
+      display: block; }
+      .section2 .row:after {
+        display: none; }
+    .section2 .row2 {
+      margin-top: 0; }
+    .section2 .col-xs-4 {
+      display: flex;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .section2 .col-xs-4:hover .border {
+        border: none;
+        background: rgba(0, 0, 0, 0.5); }
+        .section2 .col-xs-4:hover .border button {
+          display: block; }
+    .section2 .border {
+      width: 95%;
+      height: 95%;
+      border: solid 1px white;
+      margin: auto;
+      transition: all 0.5s ease-in-out;
+      cursor: pointer; }
+      .section2 .border button {
+        width: 189px;
+        height: 53px;
+        margin: auto;
+        font-family: lato, sans-serif;
+        display: block;
+        background-color: #f09d66;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 21.33333px;
+        display: none;
+        transition: all 0.5s ease-in-out;
+        margin-top: 80%; }
+    .section2 .productImage1 {
+      background-image: url("../Images/Boots.png"); }
+    .section2 .productImage2 {
+      background-image: url("../Images/oneFemaleModelLarge.png"); }
+      .section2 .productImage2 button {
+        margin-top: 650px; }
+    .section2 .productImage3 {
+      height: 400px;
+      background-image: url("../Images/Bracelet.png");
+      float: none;
+      position: relative;
+      top: -400px; }
+    .section2 .productImage4 {
+      height: 400px;
+      float: left;
+      background-image: url("../Images/silverBlackBracelet.png");
+      position: relative;
+      top: -400px; }
+    .section2 .productImage5 {
+      height: 400px;
+      float: none;
+      background-image: url("../Images/Wallet.png");
+      position: relative;
+      top: -400px; }
+
+  footer .seperatingLine {
+    width: 50%; } }
+.bottom {
+  width: 100%;
+  height: 40px;
+  background-color: black; }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 100%; } }
+@media (max-width: 935px) {
+  .section1 .title ul {
+    width: 100%;
+    padding: 30px 0 30px 0; }
+
+  .section2 .container {
+    margin-top: 100px; }
+    .section2 .container .productImage3 {
+      position: static;
+      top: 0; }
+    .section2 .container .productImage4 {
+      position: static;
+      top: 0; }
+    .section2 .container .productImage5 {
+      position: static;
+      top: 0; }
+
+  .section3 .row {
+    display: block; }
+    .section3 .row .col-xs-3 {
+      margin-top: 10px; } }
+@media (max-width: 524px) {
+  .section1 .mainBackground .backgroundSaleWrapper {
+    width: 190px;
+    height: 190px; }
+    .section1 .mainBackground .backgroundSaleWrapper .backgroundSale {
+      width: 159px;
+      height: 159px; }
+      .section1 .mainBackground .backgroundSaleWrapper .backgroundSale h2:nth-of-type(1) {
+        font-size: 12px; }
+      .section1 .mainBackground .backgroundSaleWrapper .backgroundSale h1 {
+        font-size: 30px; }
+      .section1 .mainBackground .backgroundSaleWrapper .backgroundSale h3 {
+        font-size: 16px; }
+      .section1 .mainBackground .backgroundSaleWrapper .backgroundSale h2:nth-of-type(2) {
+        margin-top: 15px;
+        font-size: 16px; }
+  .section1 header ul {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    float: none;
+    display: inline-block;
+    margin: auto; }
+    .section1 header ul li {
+      display: inline-block;
+      font-size: 12px; }
+  .section1 .title .socialBar {
+    display: none; }
+  .section1 .bannerWrapper {
+    display: flex;
+    flex-direction: column; }
+  .section1 .mainBackground button {
+    width: 159px;
+    height: 43px;
+    font-size: 12px; }
+
+  .section2 .col-xs-4 {
+    width: 100%; }
+
+  .section4 .brandWrapper {
+    flex-direction: column;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 650px;
+    overflow: auto; }
+    .section4 .brandWrapper img {
+      padding-top: 10px; }
+
+  .section5 {
+    background-size: cover; }
+    .section5 .testimonialWrapper .testimonial1, .section5 .testimonialWrapper .testimonial2 {
+      float: none;
+      text-align: center; }
+
+  footer {
+    height: 1800px; }
+    footer .menu {
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
+      footer .menu .socialWrapper {
+        width: 80%;
+        padding: 0;
+        margin: auto;
+        margin-top: 40px; }
+        footer .menu .socialWrapper div {
+          width: 40px;
+          height: 40px;
+          font-size: 14px; }
+    footer .subscribeButton {
+      width: 90%;
+      margin: auto;
+      margin-top: 15px; }
+    footer p {
+      display: block;
+      text-align: center;
+      width: 100%;
+      padding-right: 20px;
+      padding-left: 20px;
+      margin: 0; }
+    footer .paymentWrapper {
+      margin: auto;
+      margin-top: 20px; } }
+
+/*# sourceMappingURL=index.css.map */

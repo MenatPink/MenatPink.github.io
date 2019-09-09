@@ -1,0 +1,447 @@
+                          // MIXINS
+@mixin lightText{
+  font-family:$text;
+  font-weight:600;
+  color:white;
+}
+@mixin button{
+  width:225px;
+  height:44px;
+  background-color:white;
+  border:solid 2px black;
+  float:left;
+}
+                        // VARIABLE
+$text:'Raleway', sans-serif;
+$numbers:'Shrikhand', sans-serif;
+$titles:'Oswald', sans-serif;
+$underline:solid 1px white;
+                      // GLOBAL STYLES
+body{
+  width:100%;
+  height:3283px;
+}
+
+.landingPage{
+  width:100%;
+  height:650px;
+  background: linear-gradient(rgba(120,120,120,0) 0%, rgba(127,127,127,0.8)), url('../Images/chessBoard.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  img{
+    margin-left:100px;
+    margin-top:40px;
+  }
+  .menu{
+    display:inline-block;
+  }
+  ul{
+    overflow:visible;
+    padding:0;
+    display:block;
+    list-style-type:none;
+    color:white;
+    flex-direction:column;
+    margin:40px 0px 0px 100px;
+    border-bottom:solid 1px white;
+    width:50px;
+li{
+  @include lightText;
+  margin-bottom:20px;
+  width:120px;
+    }
+  }
+.header{
+  vertical-align:top;
+  display:inline-block;
+  margin-top:50px;
+  margin-left:490px;
+  width:450px;
+  h2{
+    padding-top:12px;
+    font-size:20px;
+    font-family:$numbers;
+    color:white;
+    vertical-align:top;
+    display:inline-block;
+    width:200px;
+  }
+  button{
+    float:right;
+    height:48px;
+    width:196px;
+    @include lightText;
+    background:white;
+    border:none;
+    display:inline-block;
+    color:black;
+    border-radius:2px;
+    }
+  }
+  .title{
+    display:inline-block;
+    margin:175px 0px 0px 100px;
+    width:500px;
+    h1{
+      color:white;
+      font-family:$titles;
+      margin-bottom:25px;
+    }
+    h6{
+      @include lightText;
+      font-size:12px;
+    }
+  }
+  .languageSelection{
+    margin-left:420px;
+    margin-bottom:60px;
+    vertical-align:middle;
+    display:inline-block;
+    @include lightText;
+    border-bottom:$underline;
+    overflow:visible;
+    width:22.50px;
+    p{
+      font-size:12px;
+      margin:0;
+      width:100px;
+    }
+  }
+}
+.bio{
+  .background{
+    margin:auto;
+    overflow:visible;
+    margin-top:130px;
+    background-color:#f6f6f6;
+    width:1000px;
+    height:270px;
+  }
+  .Label{
+    margin-top:-40px;
+    margin-left:45px;
+    display:inline-block;
+    width:60px;
+    height:414px;
+  }
+  .pictureLabelLine{
+    width:2px;
+    height:105px;
+    background-color:black;
+    display:block;
+    margin:auto;
+    vertical-align:top;
+  }
+  .portraitCaption{
+    font-size:2rem;
+    margin-top:70px;
+    margin-left:-25px;
+    display:inline-block;
+    font-family:$titles;
+    width:100px;
+    transform:rotateZ(-90deg);
+  }
+  img{
+    vertical-align:top;
+    margin-top:-42px;
+  }
+  .bioDescription{
+    width:430px;
+    float:right;
+    margin-top:-40px;
+    margin-right:45px;
+  }
+  p:nth-of-type(1){
+      span{
+      display:inline-block;
+      margin-top:-10px;
+      font-size:4em;
+      font-family:$titles;
+    }
+  }
+  .bioImageButton{
+    @include button;
+    margin-top:40px;
+  }
+  .bioBackground2{
+    position:relative;
+    margin-top:225px;
+    margin-left:100px;
+    width:500px;
+    height:270px;
+    float:left;
+    img{
+      position:absolute;
+      top:-30px;
+      right:40px;
+      margin-top:0;
+    }
+    h2{
+      margin-top:-20px;
+      margin-left:35px;
+      width:280px;
+      font-size:2rem;
+      font-family:$titles;
+    }
+    h6{
+      margin-left:35px;
+      margin-top:25px;
+      font-family:$text;
+      font-weight:bold;
+    }
+    p{
+      margin-left:35px;
+      width:400px;
+      height:100px;
+      margin-top:30px;
+      font-family:$text;
+    }
+    .Button2{
+      @include button;
+      margin-left:35px;
+      margin-top:70px;
+    }
+    .labelLine{
+      float:right;
+      margin-top:90px;
+      width:200px;
+      height:1px;
+      display:inline-block;
+      background-color:#e9e8e4;
+    }
+  }
+  .Slideshow{
+    float:right;
+    overflow:visible;
+    margin-top:100px;
+    margin-right:98.46px;
+    width:454px;
+    height:303px;
+    background-image:url('../Images/smallChessBoard.png');
+    background-position:center;
+    h3{
+      font-size:1.8rem;
+      letter-spacing:0.08em;
+      margin-top:64px;
+      margin-left:48px;
+      width:300px;
+      height:75px;
+      font-family:$titles;
+      color:white;
+    }
+    button{
+      @include button;
+      border:none;
+      margin-left:48px;
+      margin-top:62px;
+      width:200px;
+      font-weight:bold;
+      font-size:14px;
+      border-radius:2px;
+    }
+    .slideshowMenu{
+      width:100px;
+      height:30px;
+      margin-top:180px;
+    }
+    .slideshowIcon{
+      &:hover{
+        background-color:black;
+        cursor:pointer;
+      }
+      background-color:#e5e5e5;
+      width:8px;
+      height:8px;
+      border-radius:50px;
+      display:inline-block;
+      transition:all ease-in 0.5s;
+    }
+    .slideshowSignOff{
+      font-family:$text;
+      font-size:14px;
+      font-weight:bold;
+      float:right;
+      width:160px;
+      height:20px;
+      margin-top:-28px;
+      p{
+        display:inline-block;
+      }
+    }
+    .signOffLabelLine{
+      vertical-align:middle;
+      display:inline-block;
+      margin-left:20px;
+      height:1px;
+      background-color:black;
+      width:50px;
+    }
+  }
+}
+.antiqueChess{
+  width:100%;
+  height:623px;
+  background:linear-gradient(rgba(0,0,0,.7) 0%, rgba(0,0,0,.3) 40%), url('../Images/antiqueChessBoard.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  clear:both;
+  margin-top:664px;
+  h2{
+    @include lightText;
+    font-family:$titles;
+    margin-left:96px;
+    padding-top:160px;
+    width:400px;
+  }
+  p{
+    @include lightText;
+    max-width:530px;
+    margin-top:35px;
+    margin-left:96px;
+    font-weight: lighter;
+  }
+  button{
+    @include lightText;
+    @include button;
+    font-weight:lighter;
+    font-size:14px;
+    background-color:rgba(0,0,0,0);
+    margin-top:60px;
+    margin-left:96px;
+    border:solid 2px white;
+  }
+}
+.section3Background{
+  overflow:visible;
+  position:relative;
+  width:1000px;
+  height:257px;
+  margin:auto;
+  margin-top:125px;
+  background-color:#f6f6f6;
+  .coffeeTableSection{
+    display:inline-block;
+  }
+  h6{
+    margin-left:25px;
+    margin-top:80px;
+    font-family:$titles;
+    font-weight:bolder;
+    font-size:1.5rem;
+    letter-spacing:0.06em;
+    position:absolute;
+    transform:rotateZ(-90deg);
+  }
+  .imgLabelLine{
+    position:absolute;
+    margin-left:52px;
+    margin-top:-40px;
+    width:1px;
+    height:75px;
+    background-color:black;
+  }
+  .coffeeTable{
+    margin-left:100px;
+    margin-top:-40px;
+  }
+  h3{
+    font-size:1.2rem;
+    width:270px;
+    margin-left:100px;
+  }
+  p{
+    width:338px;
+    margin-left:100px;
+  }
+  button{
+    @include button;
+    margin-left:100px;
+  }
+  .forestSection{
+    float:right;
+    display:inline-block;
+    margin-right:161px;
+    .forest{
+      margin-top:-40px;
+    }
+    h3{
+      margin-left:10px;
+    }
+    p{
+      margin-left:10px;
+    }
+    button{
+      margin-left:10px;
+    }
+    h4{
+      position:absolute;
+      top:28px;
+      right:55px;
+      font-family:$text;
+      font-weight:bolder;
+      font-size:1rem;
+      border-bottom:solid 1px black;
+    }
+    .arrowIcon{
+      position:absolute;
+      top:35px;
+      right:25px;
+    }
+  }
+}
+footer{
+  position:relative;
+  width:100%;
+  height:240px;
+  background-color:#252729;
+  clear:both;
+  margin-top:323px;
+.footerQueen{
+    display:inline-block;
+    position:absolute;
+    top:62px;
+    left:100px;
+    img{
+      width:50px;
+    }
+  }
+ul{
+  padding-top:40px;
+  margin-left:325px;
+  @include lightText;
+  font-weight:lighter;
+  display:inline-block;
+  list-style-type:none;
+  cursor:pointer;
+  li{
+    font-size:1.2rem;
+    margin:8px;
+    }
+  }
+  .contact{
+    margin-top:65px;
+    margin-right:50px;
+    width:300px;
+    float:right;
+    display:inline-block;
+    h3{
+      text-align:center;
+      @include lightText;
+      font-size:23px;
+      font-family:$numbers;
+      margin-bottom:25px;
+    }
+    button{
+      @include button;
+      float:none;
+      display:block;
+      margin:auto;
+      font-weight:bolder;
+      width:200px;
+      height:47px;
+      border:none;
+      border-radius:2px;
+    }
+  }
+}
